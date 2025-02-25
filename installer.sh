@@ -1,6 +1,6 @@
 #!/bin/sh
 #########################################################
-version= 3.0
+version= 2.2
 description= BoHlala V3.0\n Skin BoHlala ready to upgrade... Lets Fun !!!
 #########################################################
 MY_FILE="BoHLALA_FHD.tar.gz"
