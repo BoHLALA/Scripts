@@ -27,7 +27,7 @@ echo ''
 
 
 wget -O /var/volatile/tmp/BoHLALA_FHD.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/refs/heads/main/BoHLALA_FHD.tar.gz"
-wget -O /var/volatile/tmp/byBO-HLALA_author:skin-V_2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/refs/heads/main/byBO-HLALA_author-skin-V_2.2.tar.gz"
+wget -O /var/volatile/tmp/byBO-HLALA_author:skin-V_2.2.tar.gz --no-check-certificate "https://raw.githubusercontent.com/BoHLALA/Data/refs/heads/main/byBO-HLALA_authorskin-V_2.2.tar.gz"
 wget -O /var/volatile/tmp/addons1.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/refs/heads/main/addons1.tar.gz"
 wget -O /var/volatile/tmp/addons2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/refs/heads/main/addons2.tar.gz"
 
