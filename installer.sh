@@ -6,7 +6,7 @@ description="BoHLALA V2.2 - Skin BoHlala ready to upgrade... Let's Fun"
 
 MY_FILE="BoHLALA_FHD.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/$MY_FILE"
-MY_FILE1="byBO-HLALA_author-skin-V_2.2.tar.gz"
+MY_FILE1="byBO-HLALA_authorskin-V_2.2.tar.gz"
 MY_TMP_FILE1="/var/volatile/tmp/$MY_FILE1"
 MY_FILE2="addons1.tar.gz"
 MY_TMP_FILE2="/var/volatile/tmp/$MY_FILE2"
@@ -28,7 +28,7 @@ echo ''
 
 # Download files
 wget -O "$MY_TMP_FILE" --no-check-certificate "https://github.com/BoHLALA/Data/raw/refs/heads/main/BoHLALA_FHD.tar.gz" || { echo "Download failed for $MY_FILE"; exit 1; }
-wget -O "$MY_TMP_FILE1" --no-check-certificate "https://raw.githubusercontent.com/BoHLALA/Data/refs/heads/main/byBO-HLALA_author-skin-V_2.2.tar.gz" || { echo "Download failed for $MY_FILE1"; exit 1; }
+wget -O "$MY_TMP_FILE1" --no-check-certificate "https://raw.githubusercontent.com/BoHLALA/Data/refs/heads/main/byBO-HLALA_authorskin-V_2.2.tar.gz" || { echo "Download failed for $MY_FILE1"; exit 1; }
 wget -O "$MY_TMP_FILE2" --no-check-certificate "https://github.com/BoHLALA/Data/raw/refs/heads/main/addons1.tar.gz" || { echo "Download failed for $MY_FILE2"; exit 1; }
 wget -O "$MY_TMP_FILE3" --no-check-certificate "https://github.com/BoHLALA/Data/raw/refs/heads/main/addons2.tar.gz" || { echo "Download failed for $MY_FILE3"; exit 1; }
 
