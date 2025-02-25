@@ -6,7 +6,7 @@ description= BoHLALA V3.0\n Skin BoHlala ready to upgrade... Lets Fun !!!
 MY_FILE="BoHLALA_FHD.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
 MY_FILE1="byBO-HLALA_author:skin-V_2.2.tar.gz"
-MY_TMP_FILE1="/var/volatile/tmp/"$MY_FILE2
+MY_TMP_FILE1="/var/volatile/tmp/"$MY_FILE1
 MY_FILE2="addons1.tar.gz"
 MY_TMP_FILE2="/var/volatile/tmp/"$MY_FILE2
 MY_FILE3="addons2.tar.gz"
@@ -64,7 +64,7 @@ init 3
 fi
 else
 echo "   >>>>   INSTALLATION FAILED !   <<<<"
-fi
+fi;
 echo '**************************************************'
 echo '**                   FINISHED                   **'
 echo '**************************************************'
