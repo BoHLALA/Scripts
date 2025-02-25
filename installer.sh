@@ -1,7 +1,7 @@
 #!/bin/sh
 #########################################################
 version= 2.2
-description= BoHlala V3.0\n Skin BoHlala ready to upgrade... Lets Fun !!!
+description= BoHLALA V3.0\n Skin BoHlala ready to upgrade... Lets Fun !!!
 #########################################################
 MY_FILE="BoHLALA_FHD.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
