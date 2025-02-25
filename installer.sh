@@ -21,10 +21,10 @@ echo $MY_SEP
 echo ''
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
-wget -O /var/volatile/tmp/BoHLALA_FHD.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/BoHLALA_FHD.tar.gz"
-wget -O /var/volatile/tmp/byBO-HLALA_authorskin-V_2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/byBO-HLALA_authorskin-V_2.2.tar.gz"
-wget -O /var/volatile/tmp/addons1.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/addons1.tar.gz"
-wget -O /var/volatile/tmp/addons2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/addons2.tar.gz"
+curl -O /var/volatile/tmp/BoHLALA_FHD.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/BoHLALA_FHD.tar.gz"
+curl -O /var/volatile/tmp/byBO-HLALA_authorskin-V_2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/byBO-HLALA_authorskin-V_2.2.tar.gz"
+curl -O /var/volatile/tmp/addons1.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/addons1.tar.gz"
+curl -O /var/volatile/tmp/addons2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/addons2.tar.gz"
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP_FILE3 ]; then
 echo ''
 echo $MY_SEP
