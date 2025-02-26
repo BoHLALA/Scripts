@@ -8,27 +8,22 @@ description= BoHlala V2.2\n Skin BoHlala ready to upgrade... Lets Fun !!!
 #########################################################
 MY_FILE="BoHLALA_FHD.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
-MY_FILE1="byBO-HLALA_authorskin-V_2.2.tar.gz"
-MY_TMP_FILE1="/var/volatile/tmp/"$MY_FILE1
 #########################################################
 
 MY_SEP='============================================================='
 echo $MY_SEP
 echo 'Downloading '$MY_FILE' ...'
 echo $MY_SEP
-echo 'Downloading '$MY_FILE1' ...'
-echo $MY_SEP
 echo ''
 
 
 wget -O /var/volatile/tmp/BoHLALA_FHD.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/BoHLALA_FHD.tar.gz"
-wget -O /var/volatile/tmp/byBO-HLALA_authorskin-V_2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Data/raw/main/byBO-HLALA_authorskin-V_2.2.tar.gz"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
 
 
-if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
+if [ -f $MY_TMP_FILE ]; then
 
 	echo ''
 	echo $MY_SEP
@@ -36,11 +31,9 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 	echo $MY_SEP
 	echo ''
 	tar -xzvf $MY_TMP_FILE -C /
-	tar -xzvf $MY_TMP_FILE1 -C /
 	MY_RESULT=$?
 
 	rm -f $MY_TMP_FILE > /dev/null 2>&1
-	rm -f $MY_TMP_FILE1 > /dev/null 2>&1
 
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
