@@ -25,6 +25,7 @@ wget -O /var/volatile/tmp/BoHLALA_FHD.tar.gz "https://github.com/BoHLALA/Data/ra
 wget -O /var/volatile/tmp/byBO-HLALA_authorskin-V_2.2.tar.gz "https://github.com/BoHLALA/Data/raw/main/byBO-HLALA_authorskin-V_2.2.tar.gz"
 wget -O /var/volatile/tmp/addons1.tar.gz "https://github.com/BoHLALA/Data/raw/main/addons1.tar.gz"
 wget -O /var/volatile/tmp/addons2.tar.gz "https://github.com/BoHLALA/Data/raw/main/addons2.tar.gz"
+wget -O /var/volatile/tmp/Team_Nitro-by_BoHlala-V_1.1.tar.gz --no-check-certificate "https://github.com/biko-73/TeamNitro/raw/main/skins/Team_Nitro-by_BoHlala-V_1.1.tar.gz"
 if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP_FILE3 ]; then
 echo ''
 echo $MY_SEP
