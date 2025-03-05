@@ -1,17 +1,16 @@
 #!/bin/sh
 #
 
-# Slyk Universal toppicks V5 (C) kiddac. 2019
+# OSN Universal toppicks V1 (C) kiddac. 2024
 
-python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/scraper1.py
+python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/osn/scraper.py
 
-# Slyk Universal toppicks V5 (C) kiddac. 2019
 echo 1 > /proc/sys/vm/drop_caches
 echo 2 > /proc/sys/vm/drop_caches
 echo 3 > /proc/sys/vm/drop_caches
 
-python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/picker1.py
-
-rm -rf /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/*.json
+if test -f /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/osn/all_channels_data.json; then
+    python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/osn/picker.py
+fi
 
 exit 0
