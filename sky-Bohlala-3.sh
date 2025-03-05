@@ -3,7 +3,7 @@
 
 # Slyk Universal toppicks V5 (C) kiddac. 2019
 
-python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/scraper1.py
+python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/scraper2.py
 
 # Slyk Universal toppicks V5 (C) kiddac. 2019
 echo 1 > /proc/sys/vm/drop_caches
