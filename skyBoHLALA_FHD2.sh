@@ -12,3 +12,4 @@ if test -f /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk
 fi
 exit 0
 
+
