@@ -1,7 +1,7 @@
 #!/bin/sh
 #########################################################
 version= 2.2
-description= BoHlala V2.2\n Skin BoHlala ready to upgrade... Lets Fun !!!
+description= BoHlala V2.2\n Skin BoHlala ready to upgrade... Lets Fun . ^_^ !!!
 
 #########################################################
 
