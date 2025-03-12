@@ -6,7 +6,7 @@ description= BoHlala V2.2\n Skin BoHlala ready to upgrade... Lets Fun . ^_^ !!!
 #########################################################
 
 #########################################################
-MY_FILE="BoHLALA_FHD.tar.gz"
+MY_FILE="BoHLALA_FHD_V2.2.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
 #########################################################
 
