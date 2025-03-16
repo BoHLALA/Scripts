@@ -1,7 +1,8 @@
 version= 2.2
 description= BoHLALA_FHD V2.2\n Skin BoHLALA_FHD ready to upgrade... Lets Fun . ^_^ . !!!
 
-#########################################################
+
+
 MY_FILE="BoHLALA_app.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
 MY_FILE1="BoHLALA_FHD_V2.2.tar.gz"
