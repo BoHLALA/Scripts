@@ -27,7 +27,8 @@ echo $MY_SEP
 echo ''
 
 wget -O /var/volatile/tmp/BoHLALA_app.tar.gz --no-check-certificate "https://github.com/BoHLALA/Script/raw/main/skins/BoHLALA_app.tar.gz"
-wget -O /var/volatile/tmp/BoHLALA_FHD_V2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Script/raw/main/skins/BoHLALA_FHD_V2.2.tar.gz
+wget -O /var/volatile/tmp/BoHLALA_FHD_V2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Script/raw/main/skins/BoHLALA_FHD_V2.2.tar.gz"
+wget -O /var/volatile/tmp/BO_HLALA_skin_V2.2.tar.gz --no-check-certificate "https://github.com/KIMOO1987/Team_Nitro/raw/main/BO_HLALA_skin_V2.2.tar.gz"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
@@ -54,13 +55,13 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
         
-	echo "########################################################################"
-        echo "#                                                                      #"
-        echo "#                  BoHLALA v_2.2 INSTALLED SUCCESSFULLY                #"
-        echo "#                                                                      #"
-        echo "#                     By BoHLALA . ^_^  support on                     #"
-        echo "#                                                                      #"
-        echo "#                                                                      #"
+        echo "########################################################################"
+
+	echo "#               BoHLALA v_2.2 INSTALLED SUCCESSFULLY                   #"
+                                                                             
+        echo "#                   By BoHLALA . ^_^  support on                       #"
+                                                                              
+                                                                           
         echo "#              https://www.tunisia-sat.com/forums/forums               #"
         echo "########################################################################"
         echo "#        Sucessfully Download Please apply from skin selection         #"
