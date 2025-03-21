@@ -1,7 +1,9 @@
 #!/bin/sh
 ##################################################################################################################
+
 version= 2.2
 description= BoHLALA_FHD V2.2\n Skin BoHLALA_FHD ready to upgrade... Lets Fun . ^_^ . !!!
+
 
 ##################################################################################################################
 
@@ -17,9 +19,8 @@ echo $MY_SEP
 echo 'Downloading '$MY_FILE' ...'
 echo $MY_SEP
 echo ''
-
-wget -O /var/volatile/tmp/BoHLALA_app.tar.gz --no-check-certificate "https://github.com/BoHLALA/BoHLALA_FHD/raw/main/skins/BoHLALA_app.tar.gz"
-wget -O /var/volatile/tmp/BoHLALA_FHD_V2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/BoHLALA_FHD/raw/main/skins/BoHLALA_FHD_V2.2.tar.gz
+wget -O /var/volatile/tmp/BoHLALA_app.tar.gz --no-check-certificate "https://github.com/BoHLALA/K.S.A/raw/main/skins/BoHLALA_app.tar.gz"
+wget -O /var/volatile/tmp/BoHLALA_FHD_V2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/K.S.A/raw/main/skins/BoHLALA_FHD_V2.2.tar.gz
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
