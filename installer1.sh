@@ -51,6 +51,8 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
         
+
+	
         echo "########################################################################"
 	echo "#               BoHLALA v_2.2 INSTALLED SUCCESSFULLY                   #"                                                                        
         echo "#                   By BoHLALA . ^_^  support on                       #"
@@ -58,7 +60,9 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP
         echo "########################################################################"
         echo "#        Sucessfully Download Please apply from skin selection         #"
         echo "########################################################################"
-		if which systemctl > /dev/null 2>&1; then
+	    
+                   
+               if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
 		else
 			init 4
