@@ -53,7 +53,8 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP
 
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
-        echo "########################################################################"
+        
+	echo "########################################################################"
         echo "#                                                                      #"
         echo "#                  BoHLALA v_2.2 INSTALLED SUCCESSFULLY                #"
         echo "#                                                                      #"
