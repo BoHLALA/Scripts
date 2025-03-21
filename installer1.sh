@@ -1,7 +1,7 @@
 #!/bin/sh
 #########################################################
-version= skin BoHLALA_FHD 2.2
-description=  By BoHLALA . ^_^  support on 
+version= 2.2
+description=   Developed By Bo.HLALA .. ^_^
 #########################################################
 #########################################################
 MY_FILE="BoHLALA_app.tar.gz"
