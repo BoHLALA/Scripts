@@ -26,8 +26,7 @@ echo 'Downloading '$MY_FILE3' ...'
 echo $MY_SEP
 echo ''
 
-wget -O /var/volatile/tmp/BoHLALA_app.tar.gz --no-check-certificate "https://github.com/BoHLALA/Script/raw/main/skins/BoHLALA_app.tar.gz"
-wget -O /var/volatile/tmp/BoHLALA_FHD_V2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Script/raw/main/skins/BoHLALA_FHD_V2.2.tar.gz"
+wget -O /var/volatile/tmp/BO_HLALA_skin_V2.2.tar.gz --no-check-certificate "https://github.com/KIMOO1987/Team_Nitro/raw/main/BO_HLALA_skin_V2.2.tar.gz"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
