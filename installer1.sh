@@ -52,12 +52,8 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; [ -f $MY_TMP_FILE2 ]; [ -f $MY_TMP
 	if [ $MY_RESULT -eq 0 ]; then
         
         echo "########################################################################"
-
-	echo "#               BoHLALA v_2.2 INSTALLED SUCCESSFULLY                   #"
-                                                                             
+	echo "#               BoHLALA v_2.2 INSTALLED SUCCESSFULLY                   #"                                                                        
         echo "#                   By BoHLALA . ^_^  support on                       #"
-                                                                              
-                                                                           
         echo "#              https://www.tunisia-sat.com/forums/forums               #"
         echo "########################################################################"
         echo "#        Sucessfully Download Please apply from skin selection         #"
