@@ -4,14 +4,10 @@ version= 2.2
 description= BoHlala V2.2 . ^_^ !!!
 #########################################################
 #########################################################
-MY_FILE="BoHLALA_FHD.tar.gz"
+MY_FILE="BoHLALA_app.tar.gz"
 MY_TMP_FILE="/var/volatile/tmp/"$MY_FILE
 MY_FILE1="BO_HLALA_skin_V2.2.tar.gz"
 MY_TMP_FILE1="/var/volatile/tmp/"$MY_FILE1
-MY_FILE2="addons1.tar.gz"
-MY_TMP_FILE2="/var/volatile/tmp/"$MY_FILE2
-MY_FILE3="addons2.tar.gz"
-MY_TMP_FILE3="/var/volatile/tmp/"$MY_FILE3
 #########################################################
 
 MY_SEP='============================================================='
@@ -26,7 +22,9 @@ echo 'Downloading '$MY_FILE3' ...'
 echo $MY_SEP
 echo ''
 
-wget -O /var/volatile/tmp/BO_HLALA_skin_V2.2.tar.gz --no-check-certificate "https://github.com/KIMOO1987/Team_Nitro/raw/main/BO_HLALA_skin_V2.2.tar.gz"
+
+wget -O /var/volatile/tmp/BoHLALA_app.tar.gz --no-check-certificate "https://github.com/BoHLALA/Script/raw/main/skins/BoHLALA_app.tar.gz"
+wget -O /var/volatile/tmp/BoHLALA_FHD_V2.2.tar.gz --no-check-certificate "https://github.com/BoHLALA/Script/raw/main/skins/BoHLALA_FHD_V2.2.tar.gz"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
