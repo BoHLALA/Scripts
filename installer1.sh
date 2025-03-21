@@ -1,7 +1,7 @@
 #!/bin/sh
 #########################################################
 version= 2.2
-description=   Developed By Bo.HLALA .. ^_^ ready to upgrade... Lets Fun !!!
+description=   Developed By Bo.HLALA .. ^_^  ready to upgrade... Lets Fun !!!
 #########################################################
 #########################################################
 MY_FILE="BoHLALA_app.tar.gz"
