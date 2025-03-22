@@ -22,7 +22,7 @@ echo 'Downloading '$MY_FILE3' ...'
 echo $MY_SEP
 echo ''
 
-wget -O /var/volatile/tmp/BoHLALA_FHD-Mini_V2.2.tar.gz --no-check-certificate "https://bohlala.github.io/Picons/refs/heads/main/BoHLALA_FHD-Mini_V2.2.tar.gz"
+wget -O /var/volatile/tmp/interface.tar.gz --no-check-certificate "https://bohlala.github.io/Picons/refs/heads/main/interface.tar.gz"
 
 rm -rf "/usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD"
 rm -rf "/usr/share/enigma2/BoHLALA_FHD"
