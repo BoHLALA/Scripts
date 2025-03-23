@@ -41,29 +41,29 @@ if [ -f $MY_TMP_FILE ]; [ -f $MY_TMP_FILE1 ]; then
 	rm -f $MY_TMP_FILE1 > /dev/null 2>&1
 
 	echo ''
-	if [ $MY_RESULT -eq 0 ]; then
-        echo "########################################################################"
-        echo "#                BoHLALA v_2.2 INSTALLED SUCCESSFULLY                  #"
-        echo "#                       BY BoHLALA - support on                        #"
-        echo "#              https://www.tunisia-sat.com/forums/forums               #"
-        echo "########################################################################"
-        echo "#        Sucessfully Download Please apply from skin selection         #"
-        echo "########################################################################"
-		if which systemctl > /dev/null 2>&1; then
-			sleep 2; systemctl restart enigma2
-		else
-			init 4
-			sleep 4 > /dev/null 2>&1
-			init 3
-		fi
-	else
-		echo "   >>>>   INSTALLATION FAILED !   <<<<"
-	fi
-	 echo '**************************************************'
-	 echo '**                   FINISHED                   **'
-	 echo '**************************************************'
-	 echo ''
-	 exit 0
+	# if [ $MY_RESULT -eq 0 ]; then
+    #     echo "########################################################################"
+    #     echo "#                BoHLALA v_2.2 INSTALLED SUCCESSFULLY                  #"
+    #     echo "#                       BY BoHLALA - support on                        #"
+    #     echo "#              https://www.tunisia-sat.com/forums/forums               #"
+    #     echo "########################################################################"
+    #     echo "#        Sucessfully Download Please apply from skin selection         #"
+    #     echo "########################################################################"
+	# 	if which systemctl > /dev/null 2>&1; then
+	# 		sleep 2; systemctl restart enigma2
+	# 	else
+	# 		init 4
+	# 		sleep 4 > /dev/null 2>&1
+	# 		init 3
+	# 	fi
+	# else
+	# 	echo "   >>>>   INSTALLATION FAILED !   <<<<"
+	# fi
+	#  echo '**************************************************'
+	#  echo '**                   FINISHED                   **'
+	#  echo '**************************************************'
+	#  echo ''
+	#  exit 0
 else
 	 echo ''
 	 echo "Download failed !"
