@@ -14,4 +14,20 @@ python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/pic
 
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/*.json
 
+
+echo "#########################################################"
+echo "#                                                        #"
+echo "#              Developed By Bo.HLALA .. ^_^              #"
+echo "#          Updated Successfully ... Lets Fun !!!         #"
+echo "#                                                        #"
+echo "#             Thanks for using our script                #"
+echo "#                                                        #"
+echo "#########################################################"
+else
+echo "   >>>>   INSTALLATION FAILED !   <<<<"
+fi;
+echo '**************************************************'
+echo '**                   FINISHED                   **'
+echo '**************************************************'
+
 exit 0
