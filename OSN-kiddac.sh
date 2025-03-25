@@ -14,3 +14,8 @@ if test -f /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk
 fi
 
 exit 0
+
+	echo ''
+	if [ $MY_RESULT -eq 0 ]; then
+
+                 echo "#  Developed By Bo.HLALA .. ^_^  ready to upgrade... Lets Fun !!! #"
