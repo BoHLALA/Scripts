@@ -13,9 +13,17 @@ if test -f /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk
     python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/osn/picker.py
 fi
 
+                 echo "#  Developed By Bo.HLALA .. ^_^  ready to upgrade... Lets Fun !!! #"
+
+
+else
+echo "   >>>>   INSTALLATION FAILED !   <<<<"
+fi;
+echo '**************************************************'
+echo '**                   FINISHED                   **'
+echo '**************************************************'
+
 exit 0
 
-	echo ''
-	if [ $MY_RESULT -eq 0 ]; then
 
-                 echo "#  Developed By Bo.HLALA .. ^_^  ready to upgrade... Lets Fun !!! #"
+
