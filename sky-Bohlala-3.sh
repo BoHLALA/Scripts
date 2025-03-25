@@ -18,11 +18,12 @@ rm -rf /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/*.j
 
 
 
-echo "#########################################################"
-echo "#              Developed By Bo.HLALA .. ^_^              #"
-echo "#          Updated Successfully ... Lets Fun !!!         #"
-echo "#             Thanks for using our script                #"
-echo "#########################################################"
+
+echo "##################################################"
+echo "#         Developed By Bo.HLALA .. ^_^            #"
+echo "#     Updated Successfully ... Lets Fun !!!       #"
+echo "#         Thanks for using our script             #"
+echo "##################################################"
 else
 echo "   >>>>   INSTALLATION FAILED !   <<<<"
 fi;
