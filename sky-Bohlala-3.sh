@@ -13,15 +13,12 @@ echo 3 > /proc/sys/vm/drop_caches
 python /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/picker1.py
 
 rm -rf /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/*.json
-
+fi
 
 echo "#########################################################"
-echo "#                                                        #"
 echo "#              Developed By Bo.HLALA .. ^_^              #"
 echo "#          Updated Successfully ... Lets Fun !!!         #"
-echo "#                                                        #"
 echo "#             Thanks for using our script                #"
-echo "#                                                        #"
 echo "#########################################################"
 else
 echo "   >>>>   INSTALLATION FAILED !   <<<<"
