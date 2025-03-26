@@ -40,13 +40,14 @@ if [ -f $MY_TMP_FILE ] && [ -f $MY_TMP_FILE1 ]; then
 
 	echo ''
 	if [ $MY_RESULT -eq 0 ]; then
-        echo "########################################################################"
-        echo "#                BoHLALA v_2.2 INSTALLED SUCCESSFULLY                  #"
-        echo "#                       BY BoHLALA - support on                        #"
-        echo "#              https://www.tunisia-sat.com/forums/forums               #"
-        echo "########################################################################"
-        echo "#        Sucessfully Download Please apply from skin selection         #"
-        echo "########################################################################"
+        echo "###################################################################"
+        echo "#           BoHLALA_FHD v_2.2 INSTALLED SUCCESSFULLY              #"
+        echo "#                    Developed By Bo.HLALA                        #"
+        echo "#            https://www.tunisia-sat.com/forums/forums            #"
+        echo "#                https://www.linuxsat-support.com/                #"
+        echo "###################################################################"
+        echo "#        Sucessfully Download skin ... Lets Fun !!!  .. ^_^       #"
+        echo "###################################################################"
 		if which systemctl > /dev/null 2>&1; then
 			sleep 2; systemctl restart enigma2
 		else
