@@ -19,6 +19,9 @@ rm -rf /usr/lib/enigma2/python/Plugins/Extensions/BoHLALA_FHD/locale/ar/slyk/*.j
 
 
 
+
+
+
 echo "##################################################"
 echo "#         Developed By Bo.HLALA .. ^_^            #"
 echo "#     Updated Successfully ... Lets Fun !!!       #"
